@@ -1,0 +1,34 @@
+{
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "img_size": 64,
+  "n_train": 4283,
+  "n_test": 1071,
+  "roc_auc": 0.747974688450879,
+  "confusion_matrix": [
+    [
+      685,
+      134
+    ],
+    [
+      131,
+      121
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n    Conforme       0.84      0.84      0.84       819\n  Defectueux       0.47      0.48      0.48       252\n\n    accuracy                           0.75      1071\n   macro avg       0.66      0.66      0.66      1071\nweighted avg       0.75      0.75      0.75      1071\n"
+}
