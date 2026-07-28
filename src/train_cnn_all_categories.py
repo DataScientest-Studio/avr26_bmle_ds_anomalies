@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 train_cnn_all_categories.py - CNN supervise (conforme/defectueux) + Grad-CAM,
-sur les 15 categories MVTec AD. A executer sur la VM Liora (pas le sandbox
-Claude) : pas de decoupage par batch de temps, entrainement en une passe.
+sur les 15 categories MVTec AD. A executer sur la VM Liora 
 
 A copier dans : ~/avr26_bmle_ds_anomalies/src/train_cnn_all_categories.py
 Lancer depuis la racine du repo (venv active) :
@@ -12,7 +11,7 @@ Prerequis (une fois) :
     bash download_data.sh                     # recupere les images dans data/images/
     pip install tensorflow opencv-python-headless scikit-learn matplotlib
 
-Reprend la methodologie de 06_Modelisation_Claude/pipeline/train_cnn_gradcam.py
+Reprend la methodologie de 06_Modelisation /pipeline/train_cnn_gradcam.py
 (cf. cours 10_Deep-Learning/10-Interpretabilite-CNN.md), etendue de 3 a 15
 categories. Architecture inchangee (Flatten, pas GAP) : le GAP avait fait
 collapser le modele sur la classe majoritaire lors des tests sur 3 categories
