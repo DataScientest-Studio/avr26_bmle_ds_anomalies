@@ -1,0 +1,16 @@
+{
+  "categorie": "bottle",
+  "backbone": "resnet50",
+  "tache": "identification",
+  "classes": [
+    "broken_large",
+    "broken_small",
+    "contamination",
+    "good"
+  ],
+  "inclure_good": true,
+  "f1_macro": 0.661,
+  "accuracy": 0.545,
+  "n_train": 99,
+  "n_test": 22
+}
