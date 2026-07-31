@@ -112,7 +112,7 @@ def images_exemple(categorie, n=12):
 #  INTERFACE
 # ═══════════════════════════════════════════════════════════════════════════
 st.set_page_config(page_title="Identification de defauts", page_icon="🔍", layout="wide")
-st.title("🔍 Identification du type de defaut par transfer learning")
+st.title("Identification du type de defaut par transfer learning")
 st.caption("MVTec AD — un modele par categorie, classification multi-classe (good + types de defaut)")
 
 index = charge_index()
@@ -129,7 +129,7 @@ with st.sidebar:
     # backbones disponibles pour cette categorie, avec leur niveau (bon / faible)
     dispo = [m for m in index if m["categorie"] == categorie]
     def libelle(m):
-        etoile = "✅ bon" if m["niveau"] == "bon" else "⚠️ faible"
+        etoile = "bon" if m["niveau"] == "bon" else "faible"
         return f"{m['backbone']}  ({etoile}, F1={m['f1_macro']:.2f})"
     choix = st.radio("Modele", dispo, format_func=libelle)
 
