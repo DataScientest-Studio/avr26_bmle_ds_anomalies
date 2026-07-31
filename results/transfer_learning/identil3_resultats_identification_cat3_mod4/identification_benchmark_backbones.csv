@@ -1,0 +1,5 @@
+,f1_macro_moy,f1_macro_std,accuracy_moy,accuracy_std
+resnet50,0.708,0.112,0.78,0.092
+efficientnetb0,0.695,0.114,0.761,0.144
+vgg16,0.627,0.163,0.68,0.211
+mobilenetv2,0.613,0.212,0.702,0.191
