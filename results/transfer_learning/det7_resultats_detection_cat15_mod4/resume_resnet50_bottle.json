@@ -1,0 +1,12 @@
+{
+  "categorie": "bottle",
+  "backbone": "resnet50",
+  "roc_auc": 0.989,
+  "f1_macro": 0.678,
+  "n_train": 127,
+  "n_val": 28,
+  "n_test": 28,
+  "lr_p1": 0.001,
+  "lr_p2": 1e-05,
+  "cap_good": 120
+}
