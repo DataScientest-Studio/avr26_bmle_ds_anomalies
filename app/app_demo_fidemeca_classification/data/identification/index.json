@@ -1,0 +1,45 @@
+{
+  "bottle": {
+    "categorie": "bottle",
+    "backbone": "efficientnetb0",
+    "classes": [
+      "broken_large",
+      "broken_small",
+      "contamination",
+      "good"
+    ],
+    "f1_macro": 0.852,
+    "accuracy": 0.909,
+    "n_test": 22
+  },
+  "grid": {
+    "categorie": "grid",
+    "backbone": "efficientnetb0",
+    "classes": [
+      "bent",
+      "broken",
+      "glue",
+      "good",
+      "metal_contamination",
+      "thread"
+    ],
+    "f1_macro": 0.264,
+    "accuracy": 0.238,
+    "n_test": 21
+  },
+  "carpet": {
+    "categorie": "carpet",
+    "backbone": "efficientnetb0",
+    "classes": [
+      "color",
+      "cut",
+      "good",
+      "hole",
+      "metal_contamination",
+      "thread"
+    ],
+    "f1_macro": 0.686,
+    "accuracy": 0.808,
+    "n_test": 26
+  }
+}
